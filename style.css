@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*=== Navigation ===*/
+
+nav {
+    background-color: lightgrey;
+    padding: 30px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 20px;
+}
+
+input {
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	padding: 5px;
+}
+
+button {
+	height: 30px;
+	background-color: #C11D22;
+	border: none;
+	color: #fefefe;
+	padding: 0px 50px;
+	margin: 10px;
+}
+
+button: hover {
+	background-color: #770004;
+}
+
+.logo {
+background-color: #1B1A1A;
+}
+
+.logo img {
+	padding: 20px;
+}
+
+.wrapper {
+	text-align: center;
+	padding-top: 50px;
+	height: 100vh;
+}
+
+.wrapper h3, th, td {
+	padding: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+table {
+	display: inline-block;
+}
+
+td {
+	height: 40px;
+}
+
+tr:nth-child(even){
+	background-color: #d9d9d9;
+}
+
+.edit {
+	background-color: #1111b0;
+}
+
+.delete {
+	background-color: #C11D22;
+}
+
+.edit,
+.delete{
+	padding: 10px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+}
+
+.statusColor {
+    background-color: red;
+    padding: 10px 30px;
+    color: #fff;
+}
+/*live*/
+.liveColor {
+    background-color: green;
+    padding: 10px 30px;
+    color: #fff;
+}
+
+@media screen and (max-width: 700px){
+	input {
+		display: inline-block;
+		max-width: 100%;
+	}
+}
